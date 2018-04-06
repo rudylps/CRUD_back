@@ -12,6 +12,9 @@ import javax.persistence.Id;
 import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
+
+//Déclaration de la classe PersonneModel avec annotation @Entity et @table pour que JPA puisse scanner et reconnaitre
+//cette classe en tant que nouvelle table dans la database
 @Entity // indique que la classe est persistante, prend l'attribut personne en nom.
 @Table(name = "personne")
 public class PersonneModel implements Serializable{
