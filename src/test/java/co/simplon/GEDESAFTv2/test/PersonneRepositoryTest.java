@@ -1,4 +1,7 @@
-package com.example.demo;
+package co.simplon.GEDESAFTv2.test;
+
+
+
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -19,7 +22,7 @@ import co.simplon.Application;
 				classes = Application.class)
 @AutoConfigureMockMvc
 @TestPropertySource(locations="classpath:application-test.properties")
-public class ApplicationTests {
+public class PersonneRepositoryTest {
 	
 	@Autowired
 	MockMvc mockMvc;
